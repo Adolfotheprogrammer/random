@@ -18,8 +18,8 @@ makeCircle(100,112,35,"black",0.9)
 makeLine(124,87,76,87,"white",1)
 makeLine(131,97,69,97,"white",1)
 makeCircle(100,25,2,"white")
-makeImage("http://www.todayifoundout.com/wp-content/uploads/2013/06/canada.jpg",)
-
+makeImage("http://www.drodd.com/images15/canada-flag15.gif",0,1,70,30,1)
+makeLine(11,20,11,50,"white",3,0.8)
 }
 
 
