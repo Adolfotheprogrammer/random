@@ -27,6 +27,11 @@ makeLine(11,20,11,50,"white",3,0.8)
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+    makeRect(0,0,200,100,"blue",1)
+    makeCircle(50,80,15,"black",1)
+    makeCircle(50,80,5,"white",1)
+    makeCircle(150,80,15,"black",1)
+    makeCircle(150,80,5,"white",1)
     
 }
 
