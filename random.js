@@ -19,7 +19,7 @@ makeLine(124,87,76,87,"white",1)
 makeLine(131,97,69,97,"white",1)
 makeCircle(100,25,2,"white")
 makeImage("http://www.drodd.com/images15/canada-flag15.gif",0,1,70,30,1)
-makeLine(11,20,11,50,"white",3,0.8)
+makeLine(12,20,12,50,"white",4,1)
 }
 
 
@@ -28,10 +28,12 @@ makeLine(11,20,11,50,"white",3,0.8)
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
     makeRect(0,0,200,100,"blue",1)
-    makeCircle(50,80,15,"black",1)
-    makeCircle(50,80,5,"white",1)
-    makeCircle(150,80,15,"black",1)
-    makeCircle(150,80,5,"white",1)
+    makeCircle(50,80,7.5,"black",1)
+    makeCircle(50,80,2.5,"white",1)
+    makeCircle(150,80,7.5,"black",1)
+    makeCircle(150,80,2.5,"white",1)
+    makeImage("https://img.clipartfox.com/87c057d2b5c4d4752775e90425b84fbb_sports-car-clipart-side-view-cartoon-car-free-clipart_7122-2615.png",60,80,300,30)
+    
     
 }
 
