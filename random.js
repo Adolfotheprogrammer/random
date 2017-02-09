@@ -28,13 +28,9 @@ makeLine(12,20,12,50,"white",4,1)
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
     makeRect(0,0,200,100,"blue",1)
-    makeCircle(50,80,7.5,"black",1)
-    makeCircle(50,80,2.5,"white",1)
-    makeCircle(150,80,7.5,"black",1)
-    makeCircle(150,80,2.5,"white",1)
-    makeImage("https://img.clipartfox.com/87c057d2b5c4d4752775e90425b84fbb_sports-car-clipart-side-view-cartoon-car-free-clipart_7122-2615.png",60,80,300,30)
-    
-    
+    makeImage("https://img.clipartfox.com/87c057d2b5c4d4752775e90425b84fbb_sports-car-clipart-side-view-cartoon-car-free-clipart_7122-2615.png",-30,40,300,30)
+    makeLine(0,72,200,72,"gray",3)
+    makeCircle(190,10,13,"orange")
 }
 
 
@@ -42,6 +38,8 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    makeRect(0,0,200,100,"lightblue")
+    makeRect(0,60,200,100,"blue")
     
 }
 
