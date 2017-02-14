@@ -40,7 +40,8 @@ function createSecondScene() {
 function createThirdScene() {
     makeRect(0,0,200,100,"lightblue")
     makeRect(0,60,200,100,"blue")
-    
+    makeImage("http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxpzQgwEOpkKnsc9kcWLRgY5EYfCLY3smWk3WxPM8CinHa/",60,-3,60,120)
+    makeCircle(100,10,10,"yellow")
 }
 
 
