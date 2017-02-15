@@ -5,7 +5,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-makeRect(0,25,200,100,"green",0.6)    
+makeRect(0,25,200,100,"black",0.6)    
     makeCircle(100,52,25,"orange",1)
 makeRect(90,75,20,8,"red",1)
 makeRect(90,37,20,3,"red",0.4)
@@ -20,7 +20,12 @@ makeLine(131,97,69,97,"white",1)
 makeCircle(100,25,2,"white")
 makeImage("http://www.drodd.com/images15/canada-flag15.gif",0,1,70,30,1)
 makeLine(12,20,12,50,"white",4,1)
+ var randomstuff= Math.random()
+ if(randomstuff <0.4){
+ makeText("Im a Canadian",80,80,20,10,"red")
+ }
 }
+
 
 
 // Fill in this function so that it draws something using SVG shapes!
@@ -31,6 +36,10 @@ function createSecondScene() {
     makeImage("https://img.clipartfox.com/87c057d2b5c4d4752775e90425b84fbb_sports-car-clipart-side-view-cartoon-car-free-clipart_7122-2615.png",-30,40,300,30)
     makeLine(0,72,200,72,"gray",3)
     makeCircle(190,10,13,"orange")
+     var randomstuff2= Math.random()
+     if(randomstuff2 < 0.75){
+     makeText("Vroom",75,75,10,5)
+     }
 }
 
 
@@ -42,6 +51,10 @@ function createThirdScene() {
     makeRect(0,60,200,100,"blue")
     makeImage("http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxpzQgwEOpkKnsc9kcWLRgY5EYfCLY3smWk3WxPM8CinHa/",60,-3,60,120)
     makeCircle(100,10,10,"yellow")
+var randomstuff3 =Math.random()
+if(randomstuff3 < 0.6){
+makeText("WHALE",60,20,10,6,"orange")
+}
 }
 
 
@@ -64,6 +77,7 @@ function createRandomScene() {
     
     
     // Else, if the number is less than 0.67, call the function to create your second scene.
+  
     
     
     
